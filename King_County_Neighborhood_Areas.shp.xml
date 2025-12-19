@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>King County Dept. of Transportation, Metro Transit Division, GIS Group</origin>
+				<pubdate>unknown</pubdate>
+				<title>Metro Neighborhoods in King County</title>
+				<geoform>vector digital data</geoform>
+				<onlink>http://www5.kingcounty.gov/gisdataportal/Default.aspx</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Neighborhood boundaries within King County</abstract>
+			<purpose>The neighborhood coverage was generated for the ATIS application used by the Regional Automated Trip Planning group (RATP). This group assists Metro bus riders to get from one location to another taking the best route possible. Helps users specify a general area in a trip planning query without knowing a specific landmark or address.</purpose>
+			<supplinf>None</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20121213</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-122.439678</westbc>
+				<eastbc>-121.433922</eastbc>
+				<northbc>47.787038</northbc>
+				<southbc>47.165168</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>Not applicable</themekt>
+				<themekey>neighborhood</themekey>
+				<themekey>transportation</themekey>
+				<themekey>neighborhood areas</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>transportation</themekey>
+			</theme>
+			<place>
+				<placekt>Not applicable</placekt>
+				<placekey>Washington State</placekey>
+				<placekey>King County</placekey>
+				<placekey>WA</placekey>
+				<placekey>Pacific NW</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>King County Dept. of Transportation, Metro Transit Division, GIS Group</cntorg>
+					<cntper>Trang Bui</cntper>
+				</cntorgp>
+				<cntpos>DBA/GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>201 S Jackson St, Suite 800</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+				</cntaddr>
+				<cntvoice>206-684-2118</cntvoice>
+				<cntfax>206-684-2059</cntfax>
+				<cntemail>Trang.bui@kingcounty.gov</cntemail>
+				<hours>8:00am – 5:00pm Monday - Friday</hours>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www5.kingcounty.gov/sdc/DataImages/neighborhood.jpg</browsen>
+			<browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+			<browset>JPEG</browset>
+		</browse>
+		<native>Esri ArcGIS 13.4.0.55405</native>
+		<crossref>
+			<citeinfo>
+				<origin>King County Dept. of Transportation, Metro</origin>
+				<title>King County Neighborhood Areas</title>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>Metadata is updated by Trang Bui on 12/13/12. </procdesc>
+				<procdate>20121213</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>350</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>plibrary.TRANSPORTATION.neighborhood_area</enttypl>
+				<enttypd>King County Neighborhood Areas</enttypd>
+				<enttypds>King County Metro</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NEIGHBORHOOD_NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NEIGH_NUM</attrlabl>
+				<attrdef>Number of neighborhood</attrdef>
+				<attrdefs>King County Metro</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE.STArea()</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE.STLength()</attrlabl>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>KCGIS Center</cntorg>
+					<cntper>Cheryl Wilder</cntper>
+				</cntorgp>
+				<cntpos>Data Sales Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>201 S Jackson St, Suite 700</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+				</cntaddr>
+				<cntvoice>206-263-5220</cntvoice>
+			</cntinfo>
+		</distrib>
+		<resdesc>/plibrary2/transportation/shapes/polygon/neighborhood.shp</resdesc>
+		<distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ESRI Shapefile</formname>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>Contact KCGIS Client Services for the cost of reproduction - &lt;http://www.kingcounty.gov/gis/services/index.htm&gt;</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20250610</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>King County Dept. of Transportation, Metro Transit Division, GIS Group</cntorg>
+					<cntper>Trang Bui</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>201 S Jackson St, Suite 800</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98104</postal>
+				</cntaddr>
+				<cntvoice>206-684-1593</cntvoice>
+				<cntemail>Trang.Bui@metrokc.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><CreaDate>20251218</CreaDate><CreaTime>00284500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri></metadata>
