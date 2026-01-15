@@ -1,0 +1,11 @@
+.DS_Store
+.ipynb_checkpoints/1_Data_Wrangling-checkpoint.ipynb
+.ipynb_checkpoints/2_Data_Visualization-checkpoint.ipynb
+.ipynb_checkpoints/3_Modeling-checkpoint.ipynb
+.ipynb_checkpoints/4_Data_Insights-checkpoint.ipynb
+.ipynb_checkpoints/5_Additional_Work-checkpoint.ipynb
+.ipynb_checkpoints/5a_Additional_Work-checkpoint.ipynb
+catboost_info/catboost_training.json
+catboost_info/learn/events.out.tfevents
+catboost_info/learn_error.tsv
+catboost_info/time_left.tsv
