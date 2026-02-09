@@ -4,10 +4,10 @@
 
 1. [Project Summary](#project-summary)
 2. [Results](#results)
-  - [Baseline Model Performance](#baseline-model-performance)
-  - [Effect of Outlier Filtering](#effect-of-outlier-filtering)
-  - [Role of Spatial Features](#role-of-spatial-features)
-  - [Advanced Feature Engineering Results](#advanced-feature-engineering-results)
+	- [Baseline Model Performance](#baseline-model-performance)
+	- [Effect of Outlier Filtering](#effect-of-outlier-filtering)
+	- [Role of Spatial Features](#role-of-spatial-features)
+	- [Advanced Feature Engineering Results](#advanced-feature-engineering-results)
 3. [Key Takeaways](#key-takeaways)
 4. [Data Visualization](#data-visualization)
 
